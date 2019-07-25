@@ -23,3 +23,8 @@ output "random_server" {
   value = "${random_id.server.id}"
   description = "Random resource ID"
 }
+
+output "random_out" {
+  value = "Random output"
+  description = "Random output"
+}
